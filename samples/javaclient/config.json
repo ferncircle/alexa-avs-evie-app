@@ -1,0 +1,22 @@
+{
+    "productId":"EvieAlexa",
+    "dsn":"123456",
+    "provisioningMethod":"companionService",
+    "wakeWordAgentEnabled":false,
+    "headless":false,
+    "locale":"en-US",
+    "avsHost":"https://avs-alexa-na.amazon.com",
+    "companionApp":{
+        "localPort":8443,
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"C:\\code\\Github\\sandbox\\alexa\\alexa-avs-sample-app\\samples\\javaclient\\certs\\server\\jetty.pkcs12",
+        "sslKeyStorePassphrase":""
+    },
+    "companionService":{
+        "serviceUrl":"https://localhost:3000",
+        "sslClientKeyStore":"C:\\code\\Github\\sandbox\\alexa\\alexa-avs-sample-app\\samples\\javaclient\\certs\\client\\client.pkcs12",
+        "sslClientKeyStorePassphrase":"",
+        "sslCaCert":"C:\\code\\Github\\sandbox\\alexa\\alexa-avs-sample-app\\samples\\javaclient\\certs\\ca\\ca.crt",
+        "sessionId":"34bb123f-580a-4da1-99a6-68a06d34f797"
+    }
+}
